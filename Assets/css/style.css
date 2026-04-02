@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Empuja el logo a un lado y la lista al otro */
+  align-items: center;            /* Centra verticalmente logo y texto */
+  padding: 10px 5%;               /* Un poco de aire a los lados */
+  background-color: #f8f8f8;      /* Opcional, para ver el área */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;               /* Quita los puntos de la lista */
+  gap: 30px;                      /* Espacio entre los enlaces */
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+#logo {
+  height: 150px;                   /* Ajusta el tamaño de tu logo */
+  width: auto;
+}
+
+.nav-links a {
+  text-decoration: none;          /* Quita el subrayado azul */
+  color: #333;
+  font-size: 18px;                /* 30px era demasiado grande */
+}

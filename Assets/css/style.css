@@ -13,6 +13,10 @@
   margin: 0;
   padding: 0;
   align-items: center;
+  hyphens: auto;      /* Parte la palabra con un guion si es necesario */
+  word-wrap: break-word; 
+  font-size: 16px;    /* Un pelín más pequeña en móvil ayuda mucho */
+}
 }
 
 #logo {

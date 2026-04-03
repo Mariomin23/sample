@@ -1,27 +1,49 @@
 .navbar {
   display: flex;
   justify-content: space-between; /* Empuja el logo a un lado y la lista al otro */
-  align-items: center;            /* Centra verticalmente logo y texto */
-  padding: 10px 5%;               /* Un poco de aire a los lados */
-  background-color: #f8f8f8;      /* Opcional, para ver el área */
+  align-items: center; /* Centra verticalmente logo y texto */
+  padding: 10px 5%; /* Un poco de aire a los lados */
+  background-color: #f8f8f8; /* Opcional, para ver el área */
 }
 
 .nav-links {
   display: flex;
-  list-style: none;               /* Quita los puntos de la lista */
-  gap: 30px;                      /* Espacio entre los enlaces */
+  list-style: none; /* Quita los puntos de la lista */
+  gap: 30px; /* Espacio entre los enlaces */
   margin: 0;
   padding: 0;
   align-items: center;
 }
 
 #logo {
-  height: 150px;                   /* Ajusta el tamaño de tu logo */
+  height: 150px; /* Ajusta el tamaño de tu logo */
   width: auto;
 }
 
 .nav-links a {
-  text-decoration: none;          /* Quita el subrayado azul */
+  text-decoration: none; /* Quita el subrayado azul */
   color: #333;
-  font-size: 18px;                /* 30px era demasiado grande */
+  font-size: 18px; /* 30px era demasiado grande */
+}
+#carouselExample {
+  max-width: 90%; /* El slider ocupará el 90% del ancho */
+  margin: 50px auto; /* 50px de margen arriba/abajo y centrado lateral */
+  border-radius: 20px; /* Opcional: bordes redondeados para que quede más fino */
+  overflow: hidden; /* Para que las fotos respeten los bordes redondeados */
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+}
+
+/* Asegúrate de que las imágenes mantengan su proporción */
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+.textopazo {
+  font-size: 30px;
+  text-decoration: none;
+  color: #333;
+  /* El padding hace que el área donde puedes pinchar sea más grande */
+  padding: 10px 15px;
+  /* Si quieres margen externo extra */
+  margin: 5 5px;
 }

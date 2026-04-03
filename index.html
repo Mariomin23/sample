@@ -3,20 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafa y Marta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/Assets/css/style.css">
-    <title>Document</title>
 </head>
 <body>
- <nav class="navbar">
-    <img src="/Assets/IMG/logosinfondo.png" id="logo" alt="Logo">
 
-    <ul class="nav-links">
-        <li class="nav-item"><a href="#">¿Donde sera el evento?</a></li>
-        <li class="nav-item"><a href="#">¿Como puedo llegar?</a></li>
-        <li class="nav-item"><a href="#">Alojamientos</a></li>
-        <li class="nav-item"><a href="#">Confirmaciones y alergenos</a></li>
-    </ul>
-</nav>
-<hr>
+<header>
+    <nav class="navbar">
+        <img src="/Assets/IMG/logosinfondo.png" id="logo" alt="Logo">
+        <ul class="nav-links">
+            <li><a href="#pazo">¿Dónde será?</a></li>
+            <li><a href="#">¿Cómo llegar?</a></li>
+            <li><a href="#">Alojamientos</a></li>
+            <li><a href="#">Confirmaciones</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/Assets/IMG/novios1.png" class="d-block w-100" alt="Mirador">
+    </div>
+    <div class="carousel-item">
+      <img src="/Assets/IMG/novios2.png" class="d-block w-100" alt="Italia">
+    </div>
+    <div class="carousel-item">
+      <img src="/Assets/IMG/novios3.png" class="d-block w-100" alt="Bodega">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+<div class="pazo" style="max-width 840px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="https://www.nigran.es/turismo/wp-content/uploads/sites/2/2018/02/Pazo-de-Cea.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Pazo de Cea</h5>
+        <p class="textopazo">El Pazo de Cea, ubicado en Nigrán (Pontevedra), es una joya de la arquitectura civil gallega del siglo XVI, declarada Monumento Histórico y Bien de Interés Cultural. Combina la sobriedad de la piedra de granito con jardines señoriales y una rehabilitación contemporánea galardonada.
+
+Es un lugar predilecto para la alta sociedad. Entre las bodas más mediáticas destacan la de la actriz María Castro con José Manuel Villalba y la del regatista olímpico Iago López Marra.</p>
+        <p class="card-text"><small class="text-body-secondary">09/12/2026</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

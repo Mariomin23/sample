@@ -47,3 +47,27 @@
   /* Si quieres margen externo extra */
   margin: 5 5px;
 }
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Logo arriba, enlaces abajo */
+    gap: 20px;
+    margin: 10px;          /* Reducimos los márgenes laterales */
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column; /* Enlaces en lista vertical */
+    gap: 15px;
+    text-align: center;
+    width: 100%;           /* Que ocupen todo el ancho para que sea fácil clicar */
+  }
+
+  #logo {
+    height: 100px;         /* Hacemos el logo un poco más pequeño en móvil */
+  }
+
+  .nav-links a {
+    font-size: 16px;       /* Ajustamos la letra para que no sea gigante */
+    display: block;        /* Para que el margen vertical funcione bien */
+  }
+}
